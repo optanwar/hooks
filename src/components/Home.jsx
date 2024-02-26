@@ -3,15 +3,18 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <ul>
+      <ul className="text-center my-2 flex justify-center gap-7">
         <li>
-          <a href="./home">Home</a>
+          <a href="./home" disable>Home</a>
         </li>
         <li>
           <a href="./useState">UseState</a>
         </li>
         <li>
           <a href="./UseEffects">UseEffects</a>
+        </li>
+        <li>
+          <a href="./UseRef">UseRef</a>
         </li>
       </ul>
     </div>
