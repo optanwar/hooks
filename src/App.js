@@ -5,6 +5,8 @@ import UseState from "./Hooks/UseState";
 import UseEffects from "./Hooks/UseEffect";
 import UseRef from "./Hooks/UseRef";
 import UseReducer from "./Hooks/UseReducer";
+import UseMemo from "./Hooks/UseMemo";
+import UseCallback from "./Hooks/UseCallback";
 
 const App = () => {
   return (
@@ -23,6 +25,12 @@ const App = () => {
             path="/UseReducer"
             component={UseReducer}
             element={<UseReducer />}
+          />
+          <Route path="/UseMemo" component={UseMemo} element={<UseMemo />} />
+          <Route
+            path="/UseCallback"
+            component={UseCallback}
+            element={<UseCallback />}
           />
         </Routes>
       </div>

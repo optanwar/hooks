@@ -21,6 +21,12 @@ const Home = () => {
         <li>
           <a href="./UseReducer">UseReducer</a>
         </li>
+        <li>
+          <a href="./UseMemo">UseMemo</a>
+        </li>
+        <li>
+          <a href="./UseCallback">UseCallback</a>
+        </li>
       </ul>
     </div>
   );
