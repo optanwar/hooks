@@ -5,7 +5,9 @@ const Home = () => {
     <div>
       <ul className="text-center my-2 flex justify-center gap-7">
         <li>
-          <a href="./home" disable>Home</a>
+          <a href="./home" disable>
+            Home
+          </a>
         </li>
         <li>
           <a href="./useState">UseState</a>
@@ -15,6 +17,9 @@ const Home = () => {
         </li>
         <li>
           <a href="./UseRef">UseRef</a>
+        </li>
+        <li>
+          <a href="./UseReducer">UseReducer</a>
         </li>
       </ul>
     </div>

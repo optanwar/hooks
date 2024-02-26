@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import UseState from "./Hooks/UseState";
 import UseEffects from "./Hooks/UseEffect";
 import UseRef from "./Hooks/UseRef";
+import UseReducer from "./Hooks/UseReducer";
 
 const App = () => {
   return (
@@ -18,6 +19,11 @@ const App = () => {
             element={<UseEffects />}
           />
           <Route path="/UseRef" component={UseRef} element={<UseRef />} />
+          <Route
+            path="/UseReducer"
+            component={UseReducer}
+            element={<UseReducer />}
+          />
         </Routes>
       </div>
     </Router>
